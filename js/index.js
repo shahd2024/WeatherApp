@@ -32,7 +32,7 @@ const month = months[date.getMonth()];
           <div class="about-con">
             <h6 class="mt-4">${finalData.location.name}</h6>
             <h1 class="text-center text-light">${finalData.current.temp_c}</h1>
-             <img class="bg-danger" src="${finalData.current.condition.icon}" alt="A picture of the weather">
+             <img class="" src="${finalData.current.condition.icon}" alt="A picture of the weather">
             <h6 class=" text-info mt-3">${finalData.current.condition.text}</h6>
            <div class="about-icons d-flex mt-4">
             <i class="fa-solid fa-umbrella fs-4 bro"></i><p class="mx-2 fs-6">20%</p>
