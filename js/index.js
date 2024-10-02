@@ -55,7 +55,7 @@ const month = months[date.getMonth()];
                    
                   </div>
                   <div class="about-con mt-5 d-flex justify-content-center flex-column py-5">
-                   <img class= "${finalData.forecast.forecastday[0].day.condition.icon}" src= alt="A picture of the weather">
+                   <img class= "" src${finalData.forecast.forecastday[0].day.condition.icon}= alt="A picture of the weather">
                     <h1 class="text-center text-light head-1">${finalData.forecast.forecastday[0].day.mintemp_c}</h1>
                     <h1 class="text-center text-light head-2">${finalData.forecast.forecastday[0].day.maxtemp_c}</h1>
                    
