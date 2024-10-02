@@ -3,7 +3,7 @@
 let one=document.getElementById('first-input');
 let btn=document.getElementById('btn-find');
  async function getData(data) {
-    let myHttp= await fetch(`http://api.weatherapi.com/v1/forecast.json?key=9f2021a70a1f44d485e212350242909&q=${data}&days=3`);
+    let myHttp= await fetch(`https://api.weatherapi.com/v1/forecast.json?key=9f2021a70a1f44d485e212350242909&q=${data}&days=3`);
    
     let myData=await myHttp.json();
     let finalData=myData;
@@ -104,7 +104,7 @@ btn.addEventListener('click',function(e){
 
 })
 async function display() {
-   let myHttp= await fetch(`http://api.weatherapi.com/v1/forecast.json?key=9f2021a70a1f44d485e212350242909&q=cairo&days=3`);
+   let myHttp= await fetch(`https://api.weatherapi.com/v1/forecast.json?key=9f2021a70a1f44d485e212350242909&q=cairo&days=3`);
    
     let myData=await myHttp.json();
     let finalData=myData;
