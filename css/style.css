@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: #bfc1c8;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+    background: #1e202b;
+}
+.navbar{
+    height: 150px;
+    background-color: #1e202b !important;
+   
+}
+.navbar-brand{
+color: white !important;
+}
+p{
+    font-size: 11px;
+}
+.nav-link{
+    /* font-weight: 400; */
+    transition: all 0.1s ease-in;
+    color: white !important;
+    border: transparent 2px solid;
+    border-radius: 40px;
+}
+.active{
+   color: #009ad8 !important; 
+   border: #009ad8 2px solid;
+   border-radius: 40px;
+  
+}
+
+.nav-link:hover{
+    color: #009ad8 !important; 
+   border-color: #009ad8;
+}
+.navbar-toggler-icon{
+ 
+   
+}
+.navbar-toggler{
+    /* border-radius: 0% !important; */
+}
+
+.navbar-toggler:hover{
+    border:#009ad8 2px solid ;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.home{
+    background-image: url("https://routeweather.netlify.app/images/banner.png") !important;
+    background-position: end center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+}
+footer{
+    background-color: #262936;
+    height: 230px !important;
+}
+input{
+    width: 60% !important;
+    background-color:#1e202b !important;
+    border-color: #1e202b !important;
+    height: 50px !important;
+}
+input::placeholder{
+    color: #bfc1c8 !important;
+    font-size: 14px !important;
+}
+.input-2:focus{
+    background-color: white !important;
+}
+.input-1:focus{
+    background-color: white !important;
+}
+.input-1{
+     height: 60px !important;
+    padding-bottom: 10px; 
+}
+.input-2{
+    width: 95% !important;
+    height: 60px !important;
+    padding-bottom: 10px;
+}
+.submit{
+    left: 52% !important;
+    top: 52%;
+}
+.sub{
+    width: 15% !important;
+    right: 1%;
+    top:50%;
+    position: absolute;
+    border-radius: 30px;
+    border-color: #009ad8;
+    border-width: 0px;
+    background-color: #009ad8 !important;
+    color: white;
+}
+.sub-2{
+    width: 9% !important;
+    right:5%;
+    top:73%;
+    position: absolute;
+}
+footer p{
+    color: #bfc1c8;
+    font-family: "Roboto", "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-indent: 100px;
+}
+i{
+    border-radius: 50%;
+    line-height: 2;
+    padding: 5px;
+    color: #009ad8 !important;
+    background-color: #1e202b;
+    transition: all 0.3s ease;
+
+}
+.icon-1{
+    border: #009ad8 dotted 1px;
+}
+i:hover{
+color: white !important;
+background-color: #009ad8;
+}
+.count-head{
+    color: #bfc1c8;
+    background-color: #a096961a;
+    padding: 10px;
+    border-radius: 10px;
+    /* width: 108% !important; */
+}
+.head-con{
+    background-color: #262936;
+    border-radius: 5px;
+    
+}
+.about-con h1{
+
+font-size: 100px;
+}
+.cont-1{
+background-color: #323549;
+}
+.bro{
+    border-radius: 0px !important;
+    color: #bfc1c8 !important;
+    background-color: transparent;
+}
+.bro:hover{
+    background-color: transparent;
+    color: #bfc1c8;
+}
+.head-1{
+    font-size: 30px !important;
+}
+.head-2{
+    font-size: 20px !important;
+    font-weight: 400;
+}
+.conect{
+    height: 330px !important;
+}

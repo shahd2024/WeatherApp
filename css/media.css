@@ -1,0 +1,10 @@
+@media screen and (max-width:800px) {
+    .nav-header{
+        position: relative; /* أو absolute إذا كنت تريد تحديده بناءً على حاوية */
+        left: 50%;
+        /* transform: translateX(-50%) !important; */
+        background-color: gold !important;
+    }
+    
+}
+
