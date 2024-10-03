@@ -1,10 +1,69 @@
 @media screen and (max-width:800px) {
     .nav-header{
-        position: relative; /* أو absolute إذا كنت تريد تحديده بناءً على حاوية */
+        position: relative; 
         left: 50%;
-        /* transform: translateX(-50%) !important; */
+        
         background-color: gold !important;
     }
     
+}
+@media screen and (max-width:991px) {
+    .nav-link{
+        text-align: center !important;
+        background-color: #262936 !important;
+        transform: translateX(-20%) !important;
+        border-width: 0px !important;
+        border-radius: 0px !important;
+        padding: 20px !important;
+        border-radius: 5px !important;
+        position: relative;
+       
+       
+    }
+    .nav-link:hover{
+        color: white !important;
+        border-color: transparent !important;
+    }
+    .link-1{
+        border-bottom: 0.2px white solid !important;
+       
+    }
+    .active{
+        border-color: transparent !important;
+        border-bottom: 0.2px white solid !important;
+        border-radius: 5px !important;
+    }
+    .navbar{
+position: relative !important;
+z-index: 99 !important;
+    }
+    .form-in{
+        position: relative !important;
+        z-index: 1 !important;
+    }
+    
+}
+@media screen and (max-width:256px) {
+    .sub-2{
+        width: 50% !important;
+    }
+    .sub{
+        width: 50% !important;
+    }
+   
+}
+@media screen and (min-width:256px) and (max-width:590px) {
+    .sub-2{
+        width: 30% !important;
+    }
+    .sub{
+        width: 30% !important;
+    }
+   
+}
+@media screen and (min-width:0px) and (max-width:991px) {
+    .about{
+         height: 1300px !important; 
+    }
 }
 
