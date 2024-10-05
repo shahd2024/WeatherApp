@@ -71,6 +71,9 @@ z-index: 99 !important;
         /* width: 150px !important; */
         transform: translateX(-15%) !important;
     }
+    .input-1{
+        transform: translateX(-15%) !important;
+    }
     
 }
 @media screen and (max-width:600px){
