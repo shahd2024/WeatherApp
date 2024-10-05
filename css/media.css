@@ -52,12 +52,12 @@ z-index: 99 !important;
     }
    
 }
-@media screen and (min-width:256px) and (max-width:590px) {
+@media screen and (min-width:256px) and (max-width:600px) {
     .sub-2{
-        width: 30% !important;
+        width: 35% !important;
     }
     .sub{
-        width: 30% !important;
+        width: 35% !important;
     }
    
 }
@@ -65,5 +65,20 @@ z-index: 99 !important;
     .about{
          height: 1300px !important; 
     }
+}
+@media  screen and (max-width:500px) {
+    .input-2{
+        /* width: 150px !important; */
+        transform: translateX(-15%) !important;
+    }
+    
+}
+@media screen and (max-width:600px){
+    .foot-pr{
+        /* transform: translateX(-10%) !important; */
+        width: 110% !important;
+        text-indent: -10px !important;
+    }
+    
 }
 

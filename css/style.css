@@ -48,7 +48,7 @@ body{
 input{
     background-color:#1e202b !important;
     border-color: #1e202b !important;
-    height: 50px;
+    height: 58px;
 }
 input::placeholder{
     color: gray !important;
@@ -56,16 +56,23 @@ input::placeholder{
 input:focus{
     background-color: white !important;
 }
+.form-in{
+    transform: translateX(-8%);
+}
+.input-2{
+    width: 110% !important;
+}
 .sub-2{
     width: 9% !important;
-    right:0%;
-    top:50%;
+    right:-7% !important;
+    top:57% !important;
     position: absolute;
     border-radius: 30px;
     border-color: #009ad8;
     border-width: 0px;
     background-color: #009ad8 !important;
-    color: white;
+    color: white !important;
+    /* display: none; */
 }
 .count-head{
     background: rgba(0, 0, 0, 0.1);
@@ -128,7 +135,7 @@ input:focus{
     .sub{
         width: 15% !important;
         right: 1%;
-        top:50%;
+        top:48%;
         position: absolute;
         border-radius: 30px;
         border-color: #009ad8;

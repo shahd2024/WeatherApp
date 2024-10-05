@@ -32,6 +32,7 @@ const month = months[date.getMonth()];
                 <div class="about-con ps-3">
                   <h6 class="mt-4">${finalData.location.name}</h6>
                   <h1 class="text-center text-light">${finalData.current.temp_c}</h1>
+                  
                    <img class="" src="${finalData.current.condition.icon}" alt="A picture of the weather">
                   <h6 class=" text-info mt-3">sunny</h6>
                  <div class="about-icons d-flex mt-4">
@@ -55,12 +56,12 @@ const month = months[date.getMonth()];
                   <h6 class="text-center m-auto pb-2">${res}</h6>
                  
                 </div>
-                <div class="about-con ps-3 mt-5">
-                       <img class="m-auto w-25" src="${finalData.forecast.forecastday[0].day.condition.icon}" alt="A picture of the weather">
-                   <h1 class="text-center text-light head-1 mt-3 ">${finalData.forecast.forecastday[0].day.mintemp_c}</h1>
-          <h1 class="text-center text-light head-2 mt-3">${finalData.forecast.forecastday[0].day.maxtemp_c}</h1>
+                <div class="about-con ps-3 mt-5 d-flex justify-content-center align-items-center flex-column">
+                       <img class=" w-25" src="${finalData.forecast.forecastday[0].day.condition.icon}" alt="A picture of the weather">
+                   <h1 class="text-center text-light head-1 my-2 ">${finalData.forecast.forecastday[0].day.mintemp_c}</h1>
+          <h1 class="text-center text-light head-2 my-2">${finalData.forecast.forecastday[0].day.maxtemp_c}</h1>
          
-          <h6 class=" text-info mt-5 mx-auto text-center">${finalData.forecast.forecastday[0].day.condition.text}</h6>
+          <h6 class=" text-info  mx-auto text-center">${finalData.forecast.forecastday[0].day.condition.text}</h6>
                  </div>
                 </div>
               </div>
@@ -81,12 +82,12 @@ const month = months[date.getMonth()];
                   <h6 class="text-center m-auto pb-2">${rest}</h6>
                  
                 </div>
-                <div class="about-con ps-3 mt-5">
-                       <img class="m-auto w-25" src="${finalData.forecast.forecastday[1].day.condition.icon}" alt="A picture of the weather">
-                   <h1 class="text-center text-light head-1 mt-3 ">${finalData.forecast.forecastday[1].day.mintemp_c}</h1>
-          <h1 class="text-center text-light head-2 mt-3">${finalData.forecast.forecastday[1].day.maxtemp_c}</h1>
+                <div class="about-con ps-3 mt-5 d-flex justify-content-center align-items-center flex-column">
+                       <img class=" w-25" src="${finalData.forecast.forecastday[1].day.condition.icon}" alt="A picture of the weather">
+                   <h1 class="text-center text-light head-1 my-2 ">${finalData.forecast.forecastday[1].day.mintemp_c}</h1>
+          <h1 class="text-center text-light head-2 my-2">${finalData.forecast.forecastday[1].day.maxtemp_c}</h1>
          
-          <h6 class=" text-info mt-5 mx-auto text-center">${finalData.forecast.forecastday[1].day.condition.text}</h6>
+          <h6 class=" text-info  mx-auto text-center">${finalData.forecast.forecastday[1].day.condition.text}</h6>
                  </div>
                 </div>
               </div>`
@@ -161,12 +162,12 @@ const month = months[date.getMonth()];
                   <h6 class="text-center m-auto pb-2">${res}</h6>
                  
                 </div>
-                <div class="about-con ps-3 mt-5">
-                       <img class="m-auto w-25" src="${finalData.forecast.forecastday[0].day.condition.icon}" alt="A picture of the weather">
-                   <h1 class="text-center text-light head-1 mt-3 ">${finalData.forecast.forecastday[0].day.mintemp_c}</h1>
-          <h1 class="text-center text-light head-2 mt-3">${finalData.forecast.forecastday[0].day.maxtemp_c}</h1>
+                <div class="about-con ps-3 mt-5 d-flex justify-content-center align-items-center flex-column">
+                       <img class=" w-25" src="${finalData.forecast.forecastday[0].day.condition.icon}" alt="A picture of the weather">
+                   <h1 class="text-center text-light head-1 my-2  ">${finalData.forecast.forecastday[0].day.mintemp_c}</h1>
+          <h1 class="text-center text-light head-2 my-2">${finalData.forecast.forecastday[0].day.maxtemp_c}</h1>
          
-          <h6 class=" text-info mt-5 mx-auto text-center">${finalData.forecast.forecastday[0].day.condition.text}</h6>
+          <h6 class=" text-info  mx-auto text-center">${finalData.forecast.forecastday[0].day.condition.text}</h6>
                  </div>
                 </div>
               </div>
@@ -185,12 +186,12 @@ const month = months[date.getMonth()];
                   <h6 class="text-center m-auto pb-2">${rest}</h6>
                  
                 </div>
-                <div class="about-con ps-3 mt-5">
-                       <img class="m-auto w-25" src="${finalData.forecast.forecastday[1].day.condition.icon}" alt="A picture of the weather">
-                   <h1 class="text-center text-light head-1 mt-3 ">${finalData.forecast.forecastday[1].day.mintemp_c}</h1>
-          <h1 class="text-center text-light head-2 mt-3">${finalData.forecast.forecastday[1].day.maxtemp_c}</h1>
+                <div class="about-con ps-3 mt-5 d-flex justify-content-center align-items-center flex-column">
+                       <img class=" w-25" src="${finalData.forecast.forecastday[1].day.condition.icon}" alt="A picture of the weather">
+                   <h1 class="text-center text-light head-1 my-2 ">${finalData.forecast.forecastday[1].day.mintemp_c}</h1>
+          <h1 class="text-center text-light head-2 my-2">${finalData.forecast.forecastday[1].day.maxtemp_c}</h1>
          
-          <h6 class=" text-info mt-5 mx-auto text-center">${finalData.forecast.forecastday[1].day.condition.text}</h6>
+          <h6 class=" text-info  mx-auto text-center">${finalData.forecast.forecastday[1].day.condition.text}</h6>
                  </div>
                 </div>
               </div>
